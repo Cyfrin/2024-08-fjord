@@ -1,0 +1,51 @@
+[profile.default]
+solc_version = "0.8.21"
+ffi = false
+fuzz_runs = 256
+optimizer = true
+optimizer_runs = 3000
+verbosity = 2
+src = 'src'
+out = 'out'
+test = 'test'
+script = 'script/forge'
+libs = ['lib']
+gas_reports = ["*"]
+
+[profile.default.invariant]
+fuzz_runs = 256
+fail_on_revert = true
+
+[profile.invariant]
+fail_on_revert = true
+runs = 20
+
+[profile.optimized]
+optimizer-runs = 10000
+via_ir = true
+
+[profile.fuzz]
+max_test_rejects = 1
+runs = 500
+
+[rpc_endpoints]
+localhost = "${LOCAL_RPC}"
+sepolia = "${SEPOLIA_RPC}"
+mainnet = "${ETHEREUM_RPC}"
+arbitrum_sepolia = "${ARBITRUM_SEP_RPC}"
+
+[etherscan]
+sepolia = { key = "${ETHERSCAN_KEY}", url = "https://api-sepolia.etherscan.io/api", chain = 11155111 }
+mainnet = { key = "${ETHERSCAN_KEY}", url = "https://api.etherscan.io/api", chain = 1 }
+arbitrum_sepolia = { key = "${ARBISCAN_KEY}", url = "https://api-sepolia.arbiscan.io/api", chain = 421614 }
+
+[fmt]
+line_length = 100
+tab_width = 4
+bracket_spacing = true
+
+[doc]
+out = "docs/forge-doc"
+title = "Fjord smart contracts"
+repository = "https://github.com/marigoldlabs/fjord-token"
+book = ".book.toml"

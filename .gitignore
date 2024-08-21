@@ -1,0 +1,54 @@
+.git
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# production
+artifacts/
+cache/
+crytic-export/
+typechain/
+out/
+bin
+dist
+log
+cached
+node_modules
+vendor/
+.next
+/build
+*.out
+.vercel
+.todo
+
+# misc
+.gonvim
+.DS_Store
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test.local
+.env.production
+.env.production.local
+.idea
+broadcast/
+log/access.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode
+.ignore
+
+# Test binary, built with `go test -c`
+/target
+buf.gen.yaml
+*.spkg
+*.test
+__debug_bin

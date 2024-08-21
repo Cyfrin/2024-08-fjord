@@ -1,0 +1,17 @@
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+@prb/math/=lib/prb-math/
+@sablier/v2-core/=lib/v2-core/
+ds-test/=lib/forge-std/lib/ds-test/src/
+erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/
+forge-std/=lib/forge-std/src/
+openzeppelin-contracts/=lib/openzeppelin-contracts/
+prb-math/=lib/prb-math/src/
+solmate/=lib/solmate/src/
+v2-core/=lib/v2-core/src/
+lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/
+lib/openzeppelin-contracts:@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/
+lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/
+lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/
+lib/solmate:ds-test/=lib/solmate/lib/ds-test/src/
+lib/v2-core:@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/

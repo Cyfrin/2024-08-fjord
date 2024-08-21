@@ -1,0 +1,31 @@
+[
+    {
+        "sepolia": {
+            "sablier": {
+                "Sablier_V2_Lockup_Linear_NFT": "0x7a43F8a888fa15e68C103E18b0439Eb1e98E4301"
+            },
+            "protocolSettings": {
+                "fjoAddress": "0xb725d75f0c8e7474dbc8d24cbe2f871b5ecc08c8",
+                "AuthorizedSender": "0xdD043C47fb0B267ace71c36432B4eBA3EC5C0683"
+            }
+        },
+        "arbitrum_sepolia": {
+            "sablier": {
+                "Sablier_V2_Lockup_Linear_NFT": "0x483bdd560dE53DC20f72dC66ACdB622C5075de34"
+            },
+            "protocolSettings": {
+                "fjoAddress": "0xF8548d149fA7d0a35a2B88C441C706B3a9306f50",
+                "AuthorizedSender": "0xdD043C47fb0B267ace71c36432B4eBA3EC5C0683"
+            }
+        },
+        "mainnet": {
+            "sablier": {
+                "Sablier_V2_Lockup_Linear_NFT": "0xAFb979d9afAd1aD27C5eFf4E27226E3AB9e5dCC9"
+            },
+            "protocolSettings": {
+                "fjoAddress": "0x69457A1C9Ec492419344DA01Daf0DF0e0369d5D0",
+                "AuthorizedSender": "0x5518157aA54eC975F996362c5110B19FE1C7dF32"
+            }
+        }
+    }
+]
