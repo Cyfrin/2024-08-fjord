@@ -18,8 +18,8 @@
 This repository is the Staking contract for the Fjord ecosystem. Users who gets some ERC20 emitted by Fjord Foundry can stake them to get rewards.
 
 [Documentation](https://help.fjordfoundry.com/fjord-foundry-docs)
-[Forge Documentation](/docs/)
-[Previous audits](/docs/audit/)
+[Forge Documentation](https://github.com/Cyfrin/2024-08-fjord/tree/main/docs/forge-doc)
+[Previous audits](https://github.com/Cyfrin/2024-08-fjord/tree/main/docs/audit)
 [Website](https://www.fjordfoundry.com/)
 [Twitter](https://x.com/FjordFoundry)
 [GitHub](https://github.com/marigoldlabs)
